@@ -201,3 +201,12 @@ function verificaJogador(p1,p2){ //toda função retorna algo, nesse caso retorn
 }
 return el
 }
+
+document.getElementById('ai-players').addEventListener("click" ,function(){
+
+        do{
+                randomMove=parseInt(Math.random() * 9);
+        }while(boxes[randomMove].childNodes.length != 0);
+
+        boxes[randomMove].click();
+});
