@@ -183,6 +183,7 @@ for(let i =0 ; i < boxes.length; i++){
 
             checaGanhador()
 
+            //TERMINANDO LOGICA
            
                 
         })
